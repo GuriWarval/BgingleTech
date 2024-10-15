@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Start</title>
+
+    <style>
+
+
+        header {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 240%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder;
+            text-shadow: 2px 2px palevioletred;
+        }
+
+        .link{
+            text-decoration: none;
+            padding: 20px;
+            font-size: 15px;
+            font-weight: bolder;
+            color: white;
+
+        }
+
+        nav {
+            background-color: #333;
+            padding: 18px;
+            border-radius: 20px;
+          
+        }
+
+        nav a:hover {
+            background-color: rgb(146, 108, 115);
+            color: black;
+        }
+        .card{
+            border: 2px solid black;
+            margin: 20px;
+            padding: 10px;
+            border-radius: 20px;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 80px;
+            height: 60%;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <header>
+        Tech Start
+    </header>
+    <nav>
+        <a class="link"href="#home">Home</a>
+        <a class="link"href="#about">About</a>
+        <a class="link"href="#services">Services</a>
+        <a class="link"href="#contact">Contact</a>
+    </nav>
+    <div class="main" id="home">
+
+        <section class="about" id="about">
+            <h2>About Us:</h2>
+            <p>A tech startup is a newly established company that leverages technology to solve a problem or deliver
+                innovative products or services. Typically, these startups focus on creating scalable solutions, such as
+                software platforms, apps, or tech-driven services. They often operate in dynamic and fast-paced
+                environments, aiming to disrupt traditional industries or create new markets. The goal is rapid growth
+                and often involves raising capital through venture funding. Tech startups prioritize agility,
+                innovation, and user-centric design to stay competitive and meet evolving customer needs.
+            </p> </p>
+        </section>
+        <section class="services" id="services">
+            <h2>Our Services:</h2>
+            <div class="card">
+                <h3>IT Support and Managed Services:</h3>
+                <p>IT Support: Assists with troubleshooting, maintaining hardware and software, and ensuring smooth IT
+                    operations.</p>
+            </div>
+            <div class="card">
+                <h3>Cloud Computing Services:</h3>
+                <p>Cloud Services like AWS, Google Cloud, and Microsoft Azure provide scalable storage and
+                    computing resources.</p>
+            </div>
+            <div class="card">
+                <h3>Cybersecurity Services:</h3>
+                <p>Protects businesses from cyber threats such as malware, phishing, and data breaches. Services include
+                    firewall management, vulnerability assessment, and data encryption.</p>
+            </div>
+            <div class="card">
+                <h3>Web and Mobile App Development:</h3>
+                <p>Focuses on creating and maintaining websites, mobile applications, and e-commerce platforms.
+                    Critical for businesses looking to reach customers online and provide digital services.</p>
+            </div>
+
+        </section>
+        <section class="Contact" id="contact">
+
+        </section>
+        
+        <footer>
+            <p>© 2024 TechStart. All rights reserved.</p>
+            <div class="social-media">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="insta.png" alt="" width="50px" height="50px">
+                </a>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="fb.png" alt="" width="50px" height="50px">
+                </a>
+                <a href="https://x.com/" target="_blank">
+                    <img src="x.png" alt="" width="50px" height="50px">
+                </a>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
